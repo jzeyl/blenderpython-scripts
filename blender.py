@@ -41,3 +41,6 @@ for i in objs:
 
 #new material
 bpy.data.materials.new("MyMaterial")
+
+#transform selected object. select the object then run the operator
+bpy.ops.transform.translate(value = (0.5, 0, 10))
